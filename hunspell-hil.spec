@@ -2,7 +2,7 @@ Name: hunspell-hil
 Summary: Hiligaynon hunspell dictionaries
 Epoch: 1
 Version: 0.14
-Release: 5%{?dist}
+Release: 6%{?dist}
 Group: Applications/Text
 Source: http://borel.slu.edu/obair/%{name}-%{version}.oxt
 URL: http://extensions.services.openoffice.org/project/hunspell-hil
@@ -44,6 +44,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.14-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.14-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
